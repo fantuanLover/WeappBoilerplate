@@ -1,3 +1,12 @@
 {  
-  "presets": ["es2015","stage-0"]
+	"presets": [
+		["es2015", {"loose": true,"modules": false}],
+		"stage-3"
+	],
+	"plugins": [
+		["transform-es2015-modules-commonjs", {
+			"allowTopLevelThis": true
+		}],
+		"transform-runtime"
+	]
 }
