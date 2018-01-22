@@ -1,0 +1,21 @@
+{
+	"pages":[
+		"pages/list/list",
+		"pages/index/index",
+		"pages/logs/logs"
+	],
+    "window":{
+        "navigationBarBackgroundColor": "#BBDEF8",
+        "navigationBarTitleText": "Demo",
+        "navigationBarTextStyle":"white"
+    },
+	"tabBar": {  
+		"list": [{  
+			"pagePath": "pages/list/list",  
+			"text": "文章列表"  
+		}, {  
+			"pagePath": "pages/logs/logs",  
+			"text": "日志"  
+		}]  
+	}
+}
